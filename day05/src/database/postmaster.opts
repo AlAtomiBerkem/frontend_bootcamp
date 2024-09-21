@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/16/bin/postgres "-D" "/Users/annapirz/Desktop/school_prod/js/Front_bootcamp_day05-1/src/database" "-p" "3001"
