@@ -1,0 +1,32 @@
+.wrapner {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(189, 186, 186);
+    display: flex; /* Делаем wrapner flex-контейнером */
+    justify-content: center; /* Центрируем дочерние элементы по горизонтали */
+    align-items: center; /* Центрируем дочерние элементы по вертикали */
+    position: fixed; /* Прикрепляем header к верху страницы */
+    top: 0; /* Устанавливаем верхнюю позицию */
+    left: 0; /* Устанавливаем левую позицию */
+    z-index: 1000; /* Убедитесь, что header находится поверх других элементов */
+}
+
+.header {
+    display: flex; /* Делаем header flex-контейнером */
+    gap: 30px; /* Добавляем промежуток между кнопками */
+}
+
+
+button {
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(71, 101, 234);
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: darkorange;
+}
+
